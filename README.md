@@ -1,82 +1,108 @@
+# Hire Map – Hiring & Recruitment Analysis Dashboard (SQL + Excel + Power BI)
 
-Hire Map – Recruitment Analytics Dashboard
-1. Project Overview
-The Hire Map – Recruitment Analytics Dashboard is an end-to-end data analytics project developed to analyze the recruitment process and provide meaningful insights to support HR decision-making. The project demonstrates how recruitment data can be transformed into actionable business insights using Microsoft Excel, SQL Server, and Power BI.
-________________________________________
-2. Problem Statement
-Recruitment teams often face challenges in tracking hiring performance, identifying the most effective recruitment sources, evaluating candidate readiness, and making data-driven hiring decisions.
-The objective of this project was to analyze recruitment data and answer key business questions such as:
-•	How many candidates were hired?
-•	What is the overall hiring rate?
-•	Which recruitment strategy is the most effective?
-•	Which experience level receives the most hires?
-•	Is gender hiring balanced?
-•	What is the average candidate readiness score?
-•	Which candidate strengths contribute most to successful hiring?
-________________________________________
-3. Project Objective
-The primary objective of this project is to analyze recruitment data and build an interactive dashboard that enables HR professionals to monitor recruitment performance, evaluate hiring trends, and make informed business decisions.
-________________________________________
-4. Tools & Technologies Used
-•	Microsoft Excel – Data analysis, Pivot Tables, Pivot Charts, Dashboard
-•	SQL Server – Data cleaning, querying, and analytical calculations
-•	Power BI – Interactive dashboard, DAX Measures, KPIs, Data Visualization
-________________________________________
-5. Project Workflow
-Step 1 – Data Analysis in Excel
-•	Imported the recruitment dataset into Excel.
-•	Performed basic data validation.
-•	Created Pivot Tables and Pivot Charts.
-•	Built a dashboard to summarize recruitment metrics.
-Step 2 – Data Analysis in SQL
-•	Imported the dataset into SQL Server.
-•	Used SQL queries to analyze recruitment data.
-•	Applied Aggregate Functions, GROUP BY, WHERE, ORDER BY, and CASE statements.
-•	Calculated hiring rate, readiness score, gender distribution, education level, and experience-wise analysis.
-Step 3 – Dashboard Development in Power BI
-•	Imported the analyzed dataset into Power BI.
-•	Created KPI Cards, Bar Charts, Donut Charts, Line Charts, and Slicers.
-•	Built an interactive Recruitment Analytics Dashboard using DAX measures.
-________________________________________
-6. Key Performance Indicators (KPIs)
-•	Total Candidates: 1500
-•	Hired Candidates: 465
-•	Hiring Rate: 31%
-•	Average Readiness Score: 51.10
-________________________________________
-7. Business Insights
-Insight 1 – Hiring Performance
-Out of 1,500 candidates, 465 candidates were hired, resulting in an overall Hiring Rate of 31%. This indicates that the company follows a selective recruitment process and prioritizes quality over quantity.
-________________________________________
-Insight 2 – Candidate Readiness
-The Average Readiness Score is 51.10, suggesting that many candidates require additional training and skill development before becoming fully job-ready.
-________________________________________
-Insight 3 – Recruitment Strategy
-Among all recruitment channels, Job Portal generated the highest number of candidates, making it the most effective recruitment source. Walk-in Drives and Campus Drives contributed comparatively fewer candidates.
-________________________________________
-Insight 4 – Experience Level Analysis
-The majority of hired candidates belong to the Senior Experience Level, indicating that the organization currently prefers experienced professionals over entry-level candidates.
-________________________________________
-Insight 5 – Gender Distribution
-The hiring distribution between Male and Female candidates is nearly balanced, reflecting a fair and inclusive recruitment process.
-________________________________________
-Insight 6 – Education Analysis
-Candidates holding a Bachelor's Degree represent the largest portion of the applicant pool, making them the primary talent source for recruitment.
-________________________________________
-Insight 7 – Interview Performance
-Candidates with Strong Interview Performance have a higher average readiness score than those with average performance, showing that interview performance plays an important role in hiring decisions.
-________________________________________
-Insight 8 – Candidate Strength
-The most common strengths identified among candidates are Interview Skills, Technical Skills, and Personality, indicating that these qualities significantly influence hiring outcomes.
-________________________________________
-8. Recommendations
-•	Increase investment in Job Portal recruitment to attract more qualified candidates.
-•	Improve Campus Recruitment Programs to strengthen the entry-level talent pipeline.
-•	Introduce training and skill development programs to improve candidate readiness.
-•	Continue maintaining balanced gender representation in recruitment.
-•	Focus on technical and interview skill assessments during the hiring process.
-________________________________________
-9. Conclusion
-The Hire Map – Recruitment Analytics Dashboard successfully demonstrates how recruitment data can be analyzed using Excel, SQL Server, and Power BI to generate meaningful business insights.
-The dashboard enables HR professionals to monitor hiring performance, evaluate recruitment strategies, analyze candidate profiles, and support data-driven recruitment decisions. By integrating multiple analytical tools, this project showcases an end-to-end data analytics workflow—from data analysis and querying to interactive dashboard development and business reporting.
+A data analytics project that analyzes hiring and recruitment data using **SQL for data querying**, **Microsoft Excel for data preparation**, and **Power BI for dashboard visualization**. The project provides business insights into hiring trends, recruitment performance, regional demand, and workforce planning.
+
+## Project Flags
+
+* 📊 Interactive Power BI Dashboard
+* 🗄️ SQL Data Analysis
+* 📍 Regional Hiring Insights
+* 👥 Recruitment & Workforce Analytics
+* 📈 KPI Dashboard
+* 🧹 Data Cleaning in Excel
+* 📌 Business Intelligence Project
+
+## Table of Contents
+
+* Project Overview
+* Business Problem
+* Dataset
+* Tools & Technologies
+* SQL Analysis
+* Dashboard Features
+* Key Insights
+* Files Included
+* How to Use
+* Author
+
+## Project Overview
+
+The Hire Map dashboard was developed to analyze recruitment performance across different regions, departments, and hiring channels. SQL was used to query and analyze recruitment data, Excel was used for data cleaning and preparation, and Power BI was used to build an interactive dashboard for business decision-making.
+
+## Business Problem
+
+Recruitment teams often manage hiring across multiple locations and departments. Without centralized reporting, it becomes difficult to identify hiring demand, monitor recruitment performance, and optimize hiring strategies.
+
+## Dataset
+
+The dataset includes recruitment and hiring records such as:
+
+* Candidate information
+* Job department
+* Hiring location
+* Recruitment source
+* Hiring status
+* Time period of recruitment
+
+## Tools & Technologies
+
+* **SQL** – Data querying and analysis
+* **Microsoft Excel** – Data cleaning and preprocessing
+* **Power BI** – Dashboard development and visualization
+* **DAX** – KPI calculations and business metrics
+
+## SQL Analysis
+
+SQL was used to perform recruitment data analysis, including:
+
+* Total hiring count
+* Hiring by region
+* Hiring by department
+* Recruitment source performance
+* Time-based hiring trends
+* Status-wise hiring analysis
+* Aggregations using `COUNT`, `SUM`, `GROUP BY`, `ORDER BY`, and filtering conditions
+
+## Dashboard Features
+
+* Total Hiring KPI
+* Active vs Closed Hiring Status
+* Hiring by Region
+* Hiring by Department
+* Recruitment Source Analysis
+* Time-based Hiring Trend
+* Interactive Filters and Slicers
+
+## Key Insights
+
+* Certain regions account for the largest share of hiring activity.
+* A few departments account for the majority of recruitment demand.
+* Referral and online recruitment channels generate a significant number of successful hires.
+* Hiring activity changes across time periods, indicating seasonal recruitment patterns.
+* Regional hiring concentration helps improve recruitment planning and resource allocation.
+
+## Files Included
+
+* `Project.pbix` – Power BI dashboard file
+* `Hire_Map Project.xlsx` – Excel dataset
+* `sqlproject.sql` – SQL queries used for analysis
+* `dashboard.png` – Dashboard preview image
+* `README.md` – Project documentation
+* `Hire_Map_Insights.md` – Business insights report
+
+## How to Use
+
+1. Download the repository.
+2. Run the SQL queries from `sqlproject.sql` on the dataset.
+3. Open `Hire_Map project.pbix` in Power BI Desktop.
+4. Refresh the dataset if required.
+5. Explore the interactive dashboard and filters.
+
+## Author
+
+**Deepika Kaushik**
+
+Aspiring Data Analyst skilled in **SQL, Excel, Power BI, and Data Visualization**.
+
+
 
