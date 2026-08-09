@@ -86,9 +86,9 @@ SQL was used to perform recruitment data analysis, including:
 * `Project.pbix` – Power BI dashboard file
 * `Hire_Map Project.xlsx` – Excel dataset
 * `sqlproject.sql` – SQL queries used for analysis
-* `dashboard.png` – Dashboard preview image
+* `Screenshot(4).png` – Dashboard preview image
 * `README.md` – Project documentation
-* `Hire_Map_Insights.md` – Business insights report
+* `Hire Map Insights.md` – Business insights report
 
 ## How to Use
 
